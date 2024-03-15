@@ -186,22 +186,22 @@ int main()
     insertAtPosition(tail, head, 5, 14);
 
     // delete at position
-    // deleteNode (4, head);
+    deleteNode (4, head);
 
     // check cyclic in linkedlist
-    bool res = isCircularList(head);
-    cout << res << endl;
+    // bool res = isCircularList(head);
+    // cout << res << endl;
 
-    cout << tail->data << endl;
-    cout << head->data << endl;
+    // cout << tail->data << endl;
+    // cout << head->data << endl;
 
-    tail->next = head->next;
+    // tail->next = head->next;
 
-    cout << tail->data << endl;
-    cout << head->data << endl;
+    // cout << tail->data << endl;
+    // cout << head->data << endl;
 
-    bool resl = isCircularList(head);
-    cout << resl << endl;
+    // bool resl = isCircularList(head);
+    // cout << resl << endl;
 
     // print(head);
 
