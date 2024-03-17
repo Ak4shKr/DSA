@@ -1,12 +1,15 @@
+//implementation of stack using linkedList
 #include <iostream>
 using namespace std;
 
+//creating a object for node
 struct Node
 {
     int val;
     Node *next;
 };
 
+//creating a class for stack
 class Stack
 {
 public:
@@ -14,12 +17,13 @@ public:
     int stacksize;
 
 public:
+//constructor for stack
     Stack()
     {
         head = NULL;
         stacksize = 0;
     }
-
+//add function into stack
     void push(int g)
     {
         Node *temp = new Node();
@@ -31,6 +35,7 @@ public:
         stacksize++;
     }
 
+//removal operation
     void pop()
     {
         if (head == NULL)
@@ -46,6 +51,7 @@ public:
         stacksize--;
     }
 
+//finding top
     int top()
     {
         if (head == NULL)
@@ -57,12 +63,14 @@ public:
         return head->val;
     }
 
+//gettig size of stack
     int size()
     {
         cout << "Size: " << stacksize << endl;
         return stacksize;
     }
 
+//checking empty or not
     int empty()
     {
         if (head == NULL)
@@ -89,3 +97,5 @@ int main()
 
     return 0;
 }
+
+//jai shree raam, we did it!
