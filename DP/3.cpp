@@ -68,3 +68,7 @@ int main()
     cout << "The Longest Common Subsequence is ";
     lcs(s1, s2);
 }
+
+// dp is not easy as we think, to mastered them we have to practice as much question as we cam and keep dry running all the solution on our notebook.
+// jai shreer raam
+// phir se ek baar modi sarkaar
