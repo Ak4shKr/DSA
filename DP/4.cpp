@@ -1,9 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
-string reverse(string s)
+int reverse(int s)
 {
-    cout << s;
-    int n = s.size();
+    // cout << s;
+    int n = s.length();
     int low = 0;
     int high = n - 1;
 
@@ -16,8 +16,11 @@ string reverse(string s)
 int main()
 {
     string s = "Akash";
-    string s1 = reverse(s);
-    cout << s << endl;
-    cout << s1 << endl;
+    // string s1 = reverse(s);
+    int p = 10002;
+    int q = reverse(p);
+    cout << q;
+    // cout << s << endl;
+    // cout << s1 << endl;
     return 0;
 }
